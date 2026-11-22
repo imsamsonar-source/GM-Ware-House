@@ -1,0 +1,1 @@
+const enquiryForm=document.getElementById('enquiryForm');if(enquiryForm)enquiryForm.addEventListener('submit',event=>{event.preventDefault();document.getElementById('formMessage').textContent='Form checked in this demo. No details were sent.'})
